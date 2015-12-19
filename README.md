@@ -15,5 +15,5 @@ This script is used to find alive hosts Base on the tcp connection , if we can c
   -   additional options with single dash "-"
   ```sh
   python alive-host-finder.py --ip 192.168.1.1 --subnet 255.255.255.0 -timeout 0.5
-  python alive-host-finder.py --ip 192.168.1.1 --subnet 255.255.255.0 -timeout 0.5 -verbose
+  python alive-host-finder.py --ip 192.168.1.1 --subnet 255.255.255.0 -timeout 0.5 -verbose true
   ```
